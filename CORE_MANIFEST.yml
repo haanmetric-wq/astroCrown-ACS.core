@@ -1,0 +1,16 @@
+version: 0.1
+description: >
+  Master manifest for AstroCrown ACS Core repository.
+  Links this codebase to the exact tags of related repositories for reproducibility.
+
+tags:
+  core_tag: "v0.1.0-core-scaffold"
+  data_tag: "v0.1.0-data-scaffold"
+  governance_tag: "v0.1.0-governance-scaffold"
+  results_tag: "v0.1.0-results-scaffold"
+  benchmarks_tag: "v0.1.0-benchmarks-scaffold"
+  docs_tag: "v0.1.0-docs-scaffold"
+
+notes:
+  - This manifest was added after initial scaffold to provide cross‑repo navigation.
+  - All code changes must reference the manifest to ensure tag‑linked reproducibility.
